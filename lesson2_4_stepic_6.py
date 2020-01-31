@@ -27,7 +27,6 @@ try:
     input = browser.find_element_by_id("answer")
     input.send_keys(calc(text))
     browser.find_element_by_id('solve').click()
-
     button.click()
 
 finally:
